@@ -102,6 +102,24 @@ def summary(row):
  if row.get('tipoFonte')=='pauta':
   return 'Processo incluído em pauta pública do TCU'+(' para '+row['dataPauta'] if row.get('dataPauta') else '')+'. '+('Relator informado: '+row['relator']+'. ' if row.get('relator') else '')+'Inclusão em pauta não comprova julgamento ou decisão.'
  return 'Referência pública de solicitação do Congresso Nacional'+(' sobre '+', '.join(temas) if temas else '')+'. Assunto: '+str(row.get('assunto',''))[:220]+'. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.'
+def date_key(value):
+ """Converte data pública DD/MM/AAAA em ISO para comparações."""
+ try:
+  return datetime.strptime(str(value), '%d/%m/%Y').date().isoformat()
+ except (ValueError,TypeError):
+  return ''
+
+def priority_for(tc, tracked_tcs, themes):
+ if tc in tracked_tcs:return 'prioritario'
+ if themes:return 'alta'
+ return 'a_verificar'
+
+def tracked_statuses(tracked_tcs, seen_in_current, old):
+ return [{'processo':tc,'situacao':('identificado_na_coleta' if tc in seen_in_current else 'nao_identificado_nas_fontes_consultadas'),
+          'observacao':('Apareceu em pauta pública consultada; não comprova movimentação processual.' if tc in seen_in_current else 'Não apareceu na consulta atual. Não significa ausência de movimentação ou arquivamento.'),
+          'ultimaPautaConhecida':old.get('TC:'+tc,{}).get('dataPauta','')}
+         for tc in sorted(tracked_tcs)]
+
 def main():
  DATA.mkdir(exist_ok=True)
  config=json.loads((DATA/'fontes.json').read_text(encoding='utf-8'))
@@ -112,7 +130,7 @@ def main():
  tracked=json.loads(tracked_file.read_text(encoding='utf-8')) if tracked_file.exists() else {'processos':[]}
  tracked_tcs={normalize(x) for x in tracked.get('processos',[]) if isinstance(x,str)}
  tracked_tcs.discard('')
- now=datetime.now(timezone.utc).isoformat(); found={}; errors=[]; consulted=0; changes=[]; source_status=[]
+ now=datetime.now(timezone.utc).isoformat(); found={}; errors=[]; consulted=0; changes=[]; source_status=[]; seen_current=set(); latest_session='' 
  for src in config.get('fontes',[]):
   kind=src.get('tipo');url=src.get('url','')
   try:
@@ -127,6 +145,8 @@ def main():
      data=str(item.get('dataSessao') or '')
      ano=data[-4:] if len(data)>=10 else ''
      if ano.isdigit() and int(ano)<2025 and tc not in tracked_tcs:continue
+     seen_current.add(tc)
+     latest_session=max(latest_session,date_key(data))
      prior=old.get('TC:'+tc,{})
      # A pauta não fornece assunto: descobrir somente processos já conhecidos ou explicitamente temáticos.
      assunto=str(item.get('assunto') or prior.get('assunto') or '')
@@ -134,8 +154,12 @@ def main():
      # Descoberta: TCs em pauta sem assunto ficam em triagem, sem relevância presumida.
      # A quantidade por execução é limitada para não sobrecarregar a revisão humana.
      if not temas and not prior and tc not in tracked_tcs and sum(k.startswith('TC:') for k in found)>=int(src.get('limiteNovosEmPauta',200)):continue
-     row=dict(prior,processo=tc,assunto=assunto or 'Processo identificado na pauta do TCU',relator=str(item.get('nomeRelator') or ''),dataPauta=str(item.get('dataSessao') or ''),colegiado=str(item.get('nomeColegiado') or ''),natureza=str(item.get('naturezaProcesso') or ''),tipoFonte='pauta',prioridadeTriagem=('alta' if temas else 'a_verificar'),fundamentoPrioridade=('Palavras-chave do assunto público' if temas else 'Processo em pauta sem assunto disponível'),temasSOF=temas or prior.get('temasSOF',[]),fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Consta em pauta pública; julgamento não confirmado')
-     row['resumoAutomatico']=summary(row);found['TC:'+tc]=row
+     row=dict(prior,processo=tc,assunto=assunto or 'Processo identificado na pauta do TCU',relator=str(item.get('nomeRelator') or ''),dataPauta=str(item.get('dataSessao') or ''),colegiado=str(item.get('nomeColegiado') or ''),natureza=str(item.get('naturezaProcesso') or ''),tipoFonte='pauta',prioridadeTriagem=priority_for(tc,tracked_tcs,temas),fundamentoPrioridade=('Palavras-chave do assunto público' if temas else 'Processo em pauta sem assunto disponível'),temasSOF=temas or prior.get('temasSOF',[]),fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Consta em pauta pública; julgamento não confirmado')
+     row['resumoAutomatico']=summary(row)
+     # Mesmo TC pode aparecer em várias sessões; preservar a sessão mais recente.
+     existing=found.get('TC:'+tc)
+     if existing is None or date_key(row['dataPauta'])>=date_key(existing.get('dataPauta')):
+      found['TC:'+tc]=row
    elif kind=='pedidos_congresso':
     # O serviço documenta paginação por next; limitar páginas e seguir somente URLs oficiais.
     pages=0; seen=set();page=raw
@@ -166,10 +190,16 @@ def main():
  for key,record in old.items():
   if key not in found:found[key]=record
  for key,row in found.items():
+  if row.get('tipoFonte')=='pauta':
+   row['presenteNaColetaAtual']=row['processo'] in seen_current
+   row['presenteNaPautaMaisRecente']=bool(latest_session and date_key(row.get('dataPauta'))==latest_session and row['processo'] in seen_current)
+   row['dataUltimaPautaConhecida']=row.get('dataPauta','')
+   row['situacaoVerificacao']=('Identificado na coleta atual; não comprova julgamento' if row['presenteNaColetaAtual'] else 'Registro histórico; não identificado na coleta atual')
+ for key,row in found.items():
   prior=old.get(key)
   if prior and any(str(prior.get(k,''))!=str(row.get(k,'')) for k in ('dataPauta','relator','assunto','colegiado')):
    changes.append({'processo':row['processo'],'tipoFonte':row.get('tipoFonte'),'tipo':'alteracao_em_fonte_publica'})
- result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'diagnosticoFontes':source_status,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processosAcompanhadosEncontrados':sorted({r['processo'] for r in found.values() if r.get('tipoFonte')=='pauta' and r.get('processo') in tracked_tcs}),'processos':[found[k] for k in sorted(found)],'criteriosTriagem':{'alta':'Assunto público com palavra-chave orçamentária','a_verificar':'TC em pauta sem assunto; pertinência ainda não verificada','contextual':'Solicitação do Congresso; não confirma TC'}}
+ result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'diagnosticoFontes':source_status,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processosAcompanhadosEncontrados':sorted(tracked_tcs & seen_current),'acompanhamentoPrioritario':tracked_statuses(tracked_tcs,seen_current,old),'dataPautaMaisRecente':latest_session,'escopoMonitoramento':'Presença em pautas públicas e referências SCN; não consulta andamento processual individual','processos':[found[k] for k in sorted(found)],'criteriosTriagem':{'alta':'Assunto público com palavra-chave orçamentária','a_verificar':'TC em pauta sem assunto; pertinência ainda não verificada','contextual':'Solicitação do Congresso; não confirma TC'}}
  # Evitar registrar uma falsa atualização em caso de indisponibilidade completa.
  if not consulted:
   result['ultimaColetaBemSucedida']=previous.get('ultimaColetaBemSucedida')

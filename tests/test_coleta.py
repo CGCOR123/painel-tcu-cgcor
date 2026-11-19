@@ -20,3 +20,16 @@ class ColetaTest(unittest.TestCase):
   self.assertFalse(c.official('https://tcu.gov.br.example.org/'))
   self.assertFalse(c.official('http://dados-abertos.apps.tcu.gov.br/api/pautassessao'))
 if __name__=='__main__':unittest.main()
+
+class RegrasInstitucionaisTest(unittest.TestCase):
+ def test_data_sessao(self):
+  self.assertEqual(c.date_key('19/11/2026'),'2026-11-19')
+  self.assertEqual(c.date_key('invalida'),'')
+ def test_prioridade_monitoramento(self):
+  self.assertEqual(c.priority_for('016.141/2026-1',{'016.141/2026-1'},[]),'prioritario')
+  self.assertEqual(c.priority_for('001.000/2026-1',set(),['PLOA']),'alta')
+  self.assertEqual(c.priority_for('001.000/2026-1',set(),[]),'a_verificar')
+ def test_ausencia_na_pauta_nao_e_ausencia_movimentacao(self):
+  states=c.tracked_statuses({'016.141/2026-1'},set(),{})
+  self.assertEqual(states[0]['situacao'],'nao_identificado_nas_fontes_consultadas')
+  self.assertIn('Não significa ausência',states[0]['observacao'])
