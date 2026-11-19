@@ -34,8 +34,11 @@ def request_json(url,timeout=30):
   try:
    with opener.open(req,timeout=timeout) as r:
     if not official(r.geturl()):raise ValueError('Resposta originada de endereço não oficial')
-    raw=r.read(8_000_001)
-    if len(raw)>8_000_000:raise ValueError('Resposta excede limite de 8 MB')
+    # Limite configuravel: leitura com teto, sem carregar resposta ilimitada.
+    limit=int(os.getenv('TCU_MAX_RESPONSE_MB','64'))*1_000_000
+    if not 1_000_000<=limit<=128_000_000:raise ValueError('Limite de resposta invalido')
+    raw=r.read(limit+1)
+    if len(raw)>limit:raise ValueError(f'Resposta excede limite de {limit//1_000_000} MB; verificar filtros/paginacao do servico')
     return json.loads(raw.decode('utf-8-sig'))
   except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError) as exc:
    if isinstance(exc,urllib.error.HTTPError) and exc.code not in (429,500,502,503,504):raise
@@ -63,11 +66,11 @@ def main():
  tracked=json.loads(tracked_file.read_text(encoding='utf-8')) if tracked_file.exists() else {'processos':[]}
  tracked_tcs={normalize(x) for x in tracked.get('processos',[]) if isinstance(x,str)}
  tracked_tcs.discard('')
- now=datetime.now(timezone.utc).isoformat(); found={}; errors=[]; consulted=0; changes=[]
+ now=datetime.now(timezone.utc).isoformat(); found={}; errors=[]; consulted=0; changes=[]; source_status=[]
  for src in config.get('fontes',[]):
   kind=src.get('tipo');url=src.get('url','')
   try:
-   raw=request_json(url);consulted+=1
+   raw=request_json(url);consulted+=1; source_status.append({'tipo':kind,'fonte':url,'situacao':'consultada'})
    if kind=='pautas_tcu':
     items=list_items(raw)
     for item in items:
@@ -80,7 +83,7 @@ def main():
      temas=classify(assunto)
      # Descoberta: TCs em pauta sem assunto ficam em triagem, sem relevância presumida.
      # A quantidade por execução é limitada para não sobrecarregar a revisão humana.
-     if not temas and not prior and tc not in tracked_tcs and len(found)>=int(src.get('limiteNovosEmPauta',200)):continue
+     if not temas and not prior and tc not in tracked_tcs and sum(k.startswith('TC:') for k in found)>=int(src.get('limiteNovosEmPauta',200)):continue
      row=dict(prior,processo=tc,assunto=assunto or 'Processo identificado na pauta do TCU',relator=str(item.get('nomeRelator') or ''),dataPauta=str(item.get('dataSessao') or ''),colegiado=str(item.get('nomeColegiado') or ''),natureza=str(item.get('naturezaProcesso') or ''),tipoFonte='pauta',prioridadeTriagem=('alta' if temas else 'a_verificar'),fundamentoPrioridade=('Palavras-chave do assunto público' if temas else 'Processo em pauta sem assunto disponível'),temasSOF=temas or prior.get('temasSOF',[]),fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Consta em pauta pública; julgamento não confirmado')
      row['resumoAutomatico']=summary(row);found['TC:'+tc]=row
    elif kind=='pedidos_congresso':
@@ -107,19 +110,23 @@ def main():
      if not official(next_url):raise ValueError('Paginação aponta para domínio não autorizado')
      seen.add(next_url);page=request_json(next_url);time.sleep(.3)
    else:raise ValueError('Tipo de fonte não reconhecido: '+str(kind))
-  except Exception as exc:errors.append({'fonte':url,'erro':str(exc)[:240]})
+  except Exception as exc:
+   error={'fonte':url,'erro':str(exc)[:240]};errors.append(error);source_status.append({'tipo':kind,'fonte':url,'situacao':'erro','detalhe':error['erro']})
  for key,record in old.items():
   if key not in found:found[key]=record
  for key,row in found.items():
   prior=old.get(key)
   if prior and any(str(prior.get(k,''))!=str(row.get(k,'')) for k in ('dataPauta','relator','assunto','colegiado')):
    changes.append({'processo':row['processo'],'tipoFonte':row.get('tipoFonte'),'tipo':'alteracao_em_fonte_publica'})
- result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processos':[found[k] for k in sorted(found)],'criteriosTriagem':{'alta':'Assunto público com palavra-chave orçamentária','a_verificar':'TC em pauta sem assunto; pertinência ainda não verificada','contextual':'Solicitação do Congresso; não confirma TC'}}
+ result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'diagnosticoFontes':source_status,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processosAcompanhadosEncontrados':sorted({r['processo'] for r in found.values() if r.get('tipoFonte')=='pauta' and r.get('processo') in tracked_tcs}),'processos':[found[k] for k in sorted(found)],'criteriosTriagem':{'alta':'Assunto público com palavra-chave orçamentária','a_verificar':'TC em pauta sem assunto; pertinência ainda não verificada','contextual':'Solicitação do Congresso; não confirma TC'}}
  # Evitar registrar uma falsa atualização em caso de indisponibilidade completa.
  if not consulted:
   result['ultimaColetaBemSucedida']=previous.get('ultimaColetaBemSucedida')
  else:result['ultimaColetaBemSucedida']=now
- path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ if not consulted:
+  print('Nenhuma fonte consultada; preservando ultimo arquivo publico valido',file=sys.stderr)
+  return 1
+ tmp=path.with_suffix('.json.tmp');tmp.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(path)
  print(f'Fontes acessíveis: {consulted}/{len(config.get("fontes",[]))}; processos: {len(found)}; novos: {len(result["novosProcessos"])}; alterações: {len(changes)}')
  if not consulted:return 1
  return 0
