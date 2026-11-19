@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'dados'
 TC=re.compile(r'(?<!\d)(\d{3})[. ]?(\d{3})/(20\d{2})[-–]?(\d)(?!\d)')
 DIGITS=re.compile(r'(?<!\d)(\d{3})(\d{3})(20\d{2})(\d)(?!\d)')
-TERMS={'PLOA':['ploa','projeto de lei orcamentaria anual'],'LDO':['ldo','diretrizes orcamentarias'],'Execução orçamentária':['execucao orcamentaria','execucao financeira'],'Responsabilidade fiscal':['responsabilidade fiscal','meta fiscal','metas fiscais','resultado primario'],'Receitas e despesas':['receita publica','despesa publica','renuncia de receita'],'Orçamento':['orcamento','credito adicional','emenda parlamentar','programacao orcamentaria'],'SOF':['secretaria de orcamento federal','ministerio do planejamento e orcamento']}
+TERMS={'PLOA':['ploa','projeto de lei orcamentaria anual'],'LDO':['ldo','diretrizes orcamentarias'],'Execução orçamentária':['execucao orcamentaria','execucao financeira'],'Responsabilidade fiscal':['responsabilidade fiscal','meta fiscal','metas fiscais','resultado primario'],'Receitas e despesas':['receita publica','despesa publica','renuncia de receita'],'Orçamento':['orcamento','credito adicional','emenda parlamentar','programacao orcamentaria'],'SOF':['secretaria de orcamento federal','ministerio do planejamento e orcamento'],'Fiscalização e controle':['auditoria operacional','auditoria de conformidade','levantamento','monitoramento','fiscalizacao','tomada de contas'],'Transferências e emendas':['transferencias voluntarias','transferencias especiais','emendas parlamentares','convenios','fundo de participacao'],'Política fiscal':['arcabouco fiscal','regra fiscal','divida publica','resultado nominal','limite de despesa']}
 
 def plain(s):
  return ''.join(c for c in unicodedata.normalize('NFKD',str(s or '').lower()) if not unicodedata.combining(c))
@@ -57,7 +57,7 @@ def main():
  DATA.mkdir(exist_ok=True)
  config=json.loads((DATA/'fontes.json').read_text(encoding='utf-8'))
  path=DATA/'processos_publicos.json'; previous=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
- old={r['processo']:r for r in previous.get('processos',[]) if isinstance(r,dict) and r.get('processo')}
+ old={(('SCN:' if r.get('tipoFonte')=='pedidos_congresso' else 'TC:')+r['processo']):r for r in previous.get('processos',[]) if isinstance(r,dict) and r.get('processo')}
  # Lista de acompanhamento apenas com números de TC públicos; jamais exportar SEI/notas internas.
  tracked_file=DATA/'processos_acompanhados_publicos.json'
  tracked=json.loads(tracked_file.read_text(encoding='utf-8')) if tracked_file.exists() else {'processos':[]}
@@ -74,13 +74,15 @@ def main():
      if not isinstance(item,dict):continue
      tc=normalize(item.get('numeroProcesso'))
      if not tc:continue
-     prior=old.get(tc,{})
+     prior=old.get('TC:'+tc,{})
      # A pauta não fornece assunto: descobrir somente processos já conhecidos ou explicitamente temáticos.
      assunto=str(item.get('assunto') or prior.get('assunto') or '')
      temas=classify(assunto)
-     if not temas and not prior and tc not in tracked_tcs:continue
-     row=dict(prior,processo=tc,assunto=assunto or 'Processo identificado na pauta do TCU',relator=str(item.get('nomeRelator') or ''),dataPauta=str(item.get('dataSessao') or ''),colegiado=str(item.get('nomeColegiado') or ''),natureza=str(item.get('naturezaProcesso') or ''),tipoFonte='pauta',temasSOF=temas or prior.get('temasSOF',[]),fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Consta em pauta pública; julgamento não confirmado')
-     row['resumoAutomatico']=summary(row);found[tc]=row
+     # Descoberta: TCs em pauta sem assunto ficam em triagem, sem relevância presumida.
+     # A quantidade por execução é limitada para não sobrecarregar a revisão humana.
+     if not temas and not prior and tc not in tracked_tcs and len(found)>=int(src.get('limiteNovosEmPauta',200)):continue
+     row=dict(prior,processo=tc,assunto=assunto or 'Processo identificado na pauta do TCU',relator=str(item.get('nomeRelator') or ''),dataPauta=str(item.get('dataSessao') or ''),colegiado=str(item.get('nomeColegiado') or ''),natureza=str(item.get('naturezaProcesso') or ''),tipoFonte='pauta',prioridadeTriagem=('alta' if temas else 'a_verificar'),fundamentoPrioridade=('Palavras-chave do assunto público' if temas else 'Processo em pauta sem assunto disponível'),temasSOF=temas or prior.get('temasSOF',[]),fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Consta em pauta pública; julgamento não confirmado')
+     row['resumoAutomatico']=summary(row);found['TC:'+tc]=row
    elif kind=='pedidos_congresso':
     # O serviço documenta paginação por next; limitar páginas e seguir somente URLs oficiais.
     pages=0; seen=set();page=raw
@@ -92,13 +94,13 @@ def main():
       assunto=str(item.get('assunto') or '')
       temas=classify(assunto)
       if not tc or not temas:continue
-      prior=old.get(tc,{})
+      prior=old.get('SCN:'+tc,{})
       detail=str(item.get('link_proposicao') or '')
       parsed=urllib.parse.urlparse(detail)
       if parsed.scheme!='https' or parsed.hostname not in ('www.camara.leg.br','www25.senado.leg.br','www.senado.leg.br','legis.senado.leg.br'):
        detail=''
-      row=dict(prior,processo=tc,assunto=assunto[:500],tipoFonte='pedidos_congresso',referenciaOrigem='SCN',fonteDetalheUrl=detail,numeroProposicao=str(item.get('numero') or ''),tipoProposicao=str(item.get('tipo') or ''),temasSOF=temas,fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Referência pública identificada; andamento não confirmado')
-      row['resumoAutomatico']=summary(row);found[tc]=row
+      row=dict(prior,processo=tc,assunto=assunto[:500],tipoFonte='pedidos_congresso',prioridadeTriagem='contextual',fundamentoPrioridade='Solicitação parlamentar; não é TC confirmado',referenciaOrigem='SCN',fonteDetalheUrl=detail,numeroProposicao=str(item.get('numero') or ''),tipoProposicao=str(item.get('tipo') or ''),temasSOF=temas,fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Referência pública identificada; andamento não confirmado')
+      row['resumoAutomatico']=summary(row);found['SCN:'+tc]=row
      next_url=page.get('next') if isinstance(page,dict) else None
      if not isinstance(next_url,str) or not next_url or next_url in seen:break
      next_url=urllib.parse.urljoin(url,next_url)
@@ -106,13 +108,13 @@ def main():
      seen.add(next_url);page=request_json(next_url);time.sleep(.3)
    else:raise ValueError('Tipo de fonte não reconhecido: '+str(kind))
   except Exception as exc:errors.append({'fonte':url,'erro':str(exc)[:240]})
- for tc,record in old.items():
-  if tc not in found:found[tc]=record
- for tc,row in found.items():
-  prior=old.get(tc)
+ for key,record in old.items():
+  if key not in found:found[key]=record
+ for key,row in found.items():
+  prior=old.get(key)
   if prior and any(str(prior.get(k,''))!=str(row.get(k,'')) for k in ('dataPauta','relator','assunto','colegiado')):
-   changes.append({'processo':tc,'tipo':'alteracao_em_fonte_publica'})
- result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processos':[found[k] for k in sorted(found)]}
+   changes.append({'processo':row['processo'],'tipoFonte':row.get('tipoFonte'),'tipo':'alteracao_em_fonte_publica'})
+ result={'atualizadoEm':now,'estado':'atualizado' if consulted and not errors else ('parcial' if consulted else 'falha_coleta'),'processosAcompanhadosConfigurados':len(tracked_tcs),'fontesConsultadas':consulted,'fontesConfiguradas':len(config.get('fontes',[])),'erros':errors,'novosProcessos':sorted(set(found)-set(old)),'movimentacoesDetectadas':changes,'processos':[found[k] for k in sorted(found)],'criteriosTriagem':{'alta':'Assunto público com palavra-chave orçamentária','a_verificar':'TC em pauta sem assunto; pertinência ainda não verificada','contextual':'Solicitação do Congresso; não confirma TC'}}
  # Evitar registrar uma falsa atualização em caso de indisponibilidade completa.
  if not consulted:
   result['ultimaColetaBemSucedida']=previous.get('ultimaColetaBemSucedida')
