@@ -169,7 +169,7 @@ tr.priority-on-agenda td:first-child{border-left:5px solid #039855}
   </div>
   <section class="auto-monitor" aria-label="Monitoramento automático TCU">
     <h2>🔄 Monitoramento automático TCU <span style="font-size:11px;color:#667085;font-weight:normal">· rotina diária programada no GitHub Actions</span></h2>
-    <div class="muted" style="font-size:12px">Consulta serviços oficiais documentados do TCU. Identifica pautas de processos já conhecidos e solicitações do Congresso com temas orçamentários. Os resultados exigem validação.</div>
+    <div class="muted" style="font-size:12px">Consulta fontes públicas do TCU. Descobre processos em pautas, sinaliza indícios temáticos e separa solicitações do Congresso. A relevância deve ser validada pela CGCOR. Os resultados exigem validação.</div>
     <div class="monitor-grid">
       <div class="monitor-stat"><strong id="autoTotal">0</strong><span>Processos na base pública</span></div>
       <div class="monitor-stat"><strong id="autoNew">0</strong><span>Novos na última coleta</span></div>
@@ -644,11 +644,13 @@ function publicRow(x){
  dataPauta:x.dataPauta||"",assunto:x.assunto||x.objeto||"",assuntoPauta:x.assuntoPauta||"",
  nota:[x.resumoAutomatico,x.situacaoVerificacao].filter(Boolean).join(" | ")||x.notaPublica||"",
  origem:"TCU — Base pública automática",ministro:x.relator||x.ministro||"",secao:x.fase||"",
- natureza:x.natureza||"",unidade:x.unidade||"",fonteUrl:x.fonteUrl||"",fonteDetalheUrl:x.fonteDetalheUrl||"",tipoFonte:x.tipoFonte||"",referenciaOrigem:x.referenciaOrigem||"",resumoAutomatico:x.resumoAutomatico||""};
+ natureza:x.natureza||"",unidade:x.unidade||"",fonteUrl:x.fonteUrl||"",fonteDetalheUrl:x.fonteDetalheUrl||"",tipoFonte:x.tipoFonte||"",prioridadeTriagem:x.prioridadeTriagem||"a_verificar",fundamentoPrioridade:x.fundamentoPrioridade||"",referenciaOrigem:x.referenciaOrigem||"",resumoAutomatico:x.resumoAutomatico||""};
 }
+function triageKey(r){return (r.tipoFonte==="pedidos_congresso"?"SCN:":"TC:")+r.processo}
+function triageStatus(r){return triageDecisions[triageKey(r)]?.status||triageDecisions[r.processo]?.status||"pending"}
 function approvedPublicRows(){
  const known=knownBeforeDiscovery();
- return discoveredRows.filter(r=>r.tipoFonte!=="pedidos_congresso"&&(known.has(r.processo)||triageDecisions[r.processo]?.status==="approved"));
+ return discoveredRows.filter(r=>r.tipoFonte!=="pedidos_congresso"&&(known.has(r.processo)||triageStatus(r)==="approved"));
 }
 function refreshAfterTriage(){
  publicFeedRows=approvedPublicRows();
@@ -662,9 +664,9 @@ function setTriageDecision(p,status){
 }
 function renderTriage(){
  const known=knownBeforeDiscovery();
- const candidates=discoveredRows.filter(r=>!known.has(r.processo));
+ const candidates=discoveredRows.filter(r=>r.tipoFonte==="pedidos_congresso"||!known.has(r.processo)).sort((a,b)=>({alta:0,a_verificar:1,contextual:2}[a.prioridadeTriagem]??3)-({alta:0,a_verificar:1,contextual:2}[b.prioridadeTriagem]??3));
  const counts={pending:0,approved:0,rejected:0};
- for(const r of candidates){const status=triageDecisions[r.processo]?.status||"pending";counts[status]++}
+ for(const r of candidates){const status=triageStatus(r);counts[status]++}
  document.getElementById("triagePending").textContent=counts.pending;
  document.getElementById("triageApproved").textContent=counts.approved;
  document.getElementById("triageRejected").textContent=counts.rejected;
@@ -679,9 +681,9 @@ function renderTriage(){
   const item=document.createElement("article");item.className="triage-item";
   const title=document.createElement("strong");title.textContent=(r.tipoFonte==="pedidos_congresso"?"Referência SCN ":"TC ")+r.processo;
   const description=document.createElement("p");description.textContent=r.assunto||"Assunto não disponibilizado na fonte.";
-  const extra=document.createElement("p");extra.className="muted";extra.textContent=[r.tipoFonte==="pedidos_congresso"?"Solicitação do Congresso ao TCU; referência SCN não comprova número de processo TCU. Aprovação registra interesse, mas não incorpora à base de TCs.":null,r.ministro&&"Relator: "+r.ministro,r.nota].filter(Boolean).join(" · ");
+  const extra=document.createElement("p");extra.className="muted";extra.textContent=[r.tipoFonte==="pedidos_congresso"?"Solicitação do Congresso ao TCU; referência SCN não comprova número de processo TCU. Aprovação registra interesse, mas não incorpora à base de TCs.":null,"Prioridade: "+({alta:"Alta — indício temático",a_verificar:"A verificar — pauta sem assunto",contextual:"Contextual — solicitação parlamentar"}[r.prioridadeTriagem]||"A verificar"),r.ministro&&"Relator: "+r.ministro,r.nota].filter(Boolean).join(" · ");
   const actions=document.createElement("div");actions.className="triage-actions";
-  for(const [status,label,cls] of [["approved","✓ Aprovar e incluir","approve"],["rejected","✕ Descartar","reject"],["pending","↺ Voltar para pendentes",""]]){
+  for(const [status,label,cls] of [["approved","✓ Aprovar para acompanhamento","approve"],["rejected","✕ Descartar","reject"],["pending","↺ Voltar para pendentes",""]]){
    if((triageDecisions[r.processo]?.status||"pending")===status)continue;
    const btn=document.createElement("button");btn.textContent=label;btn.className=cls;btn.type="button";
    btn.onclick=()=>setTriageDecision(r.processo,status);actions.append(btn);
@@ -706,7 +708,7 @@ document.getElementById("triageImportInput").onchange=async e=>{
   const obj=JSON.parse(await f.text());const decisions=obj.decisoes;
   if(!decisions||typeof decisions!=="object"||Array.isArray(decisions))throw Error("Arquivo sem campo 'decisoes'.");
   const valid={};for(const [p,d] of Object.entries(decisions)){
-   if(tcNumbers(p)[0]===p&&["approved","rejected"].includes(d?.status))valid[p]={status:d.status,updatedAt:String(d.updatedAt||"")};
+   if((tcNumbers(p.replace(/^(TC|SCN):/,""))[0]===p.replace(/^(TC|SCN):/,""))&&["approved","rejected"].includes(d?.status))valid[p]={status:d.status,updatedAt:String(d.updatedAt||"")};
   }
   if(!confirm(`Importar ${Object.keys(valid).length} decisão(ões)? Decisões coincidentes serão substituídas.`))return;
   triageDecisions={...triageDecisions,...valid};if(saveTriage())refreshAfterTriage();
@@ -717,7 +719,7 @@ async function refreshPublicFeed(){
  try{
   const res=await fetch("./dados/processos_publicos.json",{cache:"no-store"});if(!res.ok)throw new Error(`HTTP ${res.status}`);
   const payload=await res.json();const records=Array.isArray(payload)?payload:(payload.processos||[]);
-  const unique=new Map();for(const x of records){const r=publicRow(x);if(r)unique.set(r.processo,r)}
+  const unique=new Map();for(const x of records){const r=publicRow(x);if(r)unique.set(triageKey(r),r)}
   discoveredRows=[...unique.values()];
   document.getElementById("autoTotal").textContent=discoveredRows.length;
   document.getElementById("autoNew").textContent=(payload.novosProcessos||[]).length;
@@ -729,7 +731,7 @@ async function refreshPublicFeed(){
    const ul=document.createElement("ul");for(const x of highlights){const li=document.createElement("li");const b=document.createElement("b");b.textContent=(x.processo||"")+" — ";li.append(b,document.createTextNode(x.resumoAutomatico||""));if(x.fonteUrl&&/^https:\/\//.test(x.fonteUrl)){const a=document.createElement("a");a.href=x.fonteDetalheUrl||x.fonteUrl;a.target="_blank";a.rel="noopener noreferrer";a.textContent=x.fonteDetalheUrl?" Proposição específica":" Base geral (API)";li.append(a)}ul.append(li)}summaryBox.append(ul);
   }else summaryBox.textContent="Nenhum resumo público disponível nesta coleta.";
   refreshAfterTriage();
-  status.textContent=`Base pública: ${discoveredRows.length} processo(s). Última execução: ${payload.atualizadoEm||"não executada"}. Estado: ${payload.estado||"desconhecido"}. Novos processos aguardam triagem.`;
+  status.textContent=`Base pública: ${discoveredRows.length} registros (${discoveredRows.filter(r=>r.tipoFonte!=="pedidos_congresso").length} TCs e ${discoveredRows.filter(r=>r.tipoFonte==="pedidos_congresso").length} referências SCN). Última execução: ${payload.atualizadoEm||"não executada"}. Estado: ${payload.estado||"desconhecido"}. ${payload.erros?.length?"Fontes com falha: "+payload.erros.map(e=>e.fonte+" ("+e.erro+")").join("; "):""}`;
  }catch(err){
   status.textContent="Base pública indisponível. O painel continua operando com os dados locais. ("+err.message+")";
   renderTriage();
