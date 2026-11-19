@@ -180,7 +180,7 @@ tr.priority-on-agenda td:first-child{border-left:5px solid #039855}
 
 <section class="triage-panel" id="triagePanel">
  <h2>🗂 Novos processos — Triagem CGCOR</h2>
- <div class="muted" style="font-size:12px">Os processos públicos ainda não cadastrados ficam aguardando análise. Apenas os aprovados entram na base consolidada. Decisões salvas neste navegador; não são compartilhadas automaticamente entre computadores.</div>
+ <div class="muted" style="font-size:12px">Os registros públicos ainda não cadastrados ficam aguardando análise. Somente processos TCU confirmados podem entrar na base consolidada; referências SCN permanecem na triagem mesmo após aprovação. Decisões salvas neste navegador; não são compartilhadas automaticamente entre computadores.</div>
  <div class="triage-kpis">
   <span><b id="triagePending">0</b> aguardando análise</span>
   <span><b id="triageApproved">0</b> aprovados</span>
@@ -644,11 +644,11 @@ function publicRow(x){
  dataPauta:x.dataPauta||"",assunto:x.assunto||x.objeto||"",assuntoPauta:x.assuntoPauta||"",
  nota:[x.resumoAutomatico,x.situacaoVerificacao].filter(Boolean).join(" | ")||x.notaPublica||"",
  origem:"TCU — Base pública automática",ministro:x.relator||x.ministro||"",secao:x.fase||"",
- natureza:x.natureza||"",unidade:x.unidade||"",fonteUrl:x.fonteUrl||"",resumoAutomatico:x.resumoAutomatico||""};
+ natureza:x.natureza||"",unidade:x.unidade||"",fonteUrl:x.fonteUrl||"",fonteDetalheUrl:x.fonteDetalheUrl||"",tipoFonte:x.tipoFonte||"",referenciaOrigem:x.referenciaOrigem||"",resumoAutomatico:x.resumoAutomatico||""};
 }
 function approvedPublicRows(){
  const known=knownBeforeDiscovery();
- return discoveredRows.filter(r=>known.has(r.processo)||triageDecisions[r.processo]?.status==="approved");
+ return discoveredRows.filter(r=>r.tipoFonte!=="pedidos_congresso"&&(known.has(r.processo)||triageDecisions[r.processo]?.status==="approved"));
 }
 function refreshAfterTriage(){
  publicFeedRows=approvedPublicRows();
@@ -677,16 +677,18 @@ function renderTriage(){
  const fragment=document.createDocumentFragment();
  for(const r of shown.slice(0,100)){
   const item=document.createElement("article");item.className="triage-item";
-  const title=document.createElement("strong");title.textContent="TC "+r.processo;
+  const title=document.createElement("strong");title.textContent=(r.tipoFonte==="pedidos_congresso"?"Referência SCN ":"TC ")+r.processo;
   const description=document.createElement("p");description.textContent=r.assunto||"Assunto não disponibilizado na fonte.";
-  const extra=document.createElement("p");extra.className="muted";extra.textContent=[r.ministro&&"Relator: "+r.ministro,r.nota].filter(Boolean).join(" · ");
+  const extra=document.createElement("p");extra.className="muted";extra.textContent=[r.tipoFonte==="pedidos_congresso"?"Solicitação do Congresso ao TCU; referência SCN não comprova número de processo TCU. Aprovação registra interesse, mas não incorpora à base de TCs.":null,r.ministro&&"Relator: "+r.ministro,r.nota].filter(Boolean).join(" · ");
   const actions=document.createElement("div");actions.className="triage-actions";
   for(const [status,label,cls] of [["approved","✓ Aprovar e incluir","approve"],["rejected","✕ Descartar","reject"],["pending","↺ Voltar para pendentes",""]]){
    if((triageDecisions[r.processo]?.status||"pending")===status)continue;
    const btn=document.createElement("button");btn.textContent=label;btn.className=cls;btn.type="button";
    btn.onclick=()=>setTriageDecision(r.processo,status);actions.append(btn);
   }
-  if(/^https:\/\//.test(r.fonteUrl)){const a=document.createElement("a");a.href=r.fonteUrl;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Consultar fonte oficial";actions.append(a)}
+  const detail=r.fonteDetalheUrl;
+  if(/^https:\/\//.test(detail)){const a=document.createElement("a");a.href=detail;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Consultar proposição específica";actions.append(a)}
+  else{const note=document.createElement("span");note.className="muted";note.textContent="Link específico indisponível; não usar a API geral como comprovante.";actions.append(note)}
   item.append(title,description,extra,actions);fragment.append(item);
  }
  list.append(fragment);
@@ -724,7 +726,7 @@ async function refreshPublicFeed(){
   const highlights=records.filter(x=>x.resumoAutomatico).slice(0,8);
   if(highlights.length){
    const head=document.createElement("strong");head.textContent="Resumos automáticos (triagem indicativa):";summaryBox.append(head);
-   const ul=document.createElement("ul");for(const x of highlights){const li=document.createElement("li");const b=document.createElement("b");b.textContent=(x.processo||"")+" — ";li.append(b,document.createTextNode(x.resumoAutomatico||""));if(x.fonteUrl&&/^https:\/\//.test(x.fonteUrl)){const a=document.createElement("a");a.href=x.fonteUrl;a.target="_blank";a.rel="noopener noreferrer";a.textContent=" Fonte oficial";li.append(a)}ul.append(li)}summaryBox.append(ul);
+   const ul=document.createElement("ul");for(const x of highlights){const li=document.createElement("li");const b=document.createElement("b");b.textContent=(x.processo||"")+" — ";li.append(b,document.createTextNode(x.resumoAutomatico||""));if(x.fonteUrl&&/^https:\/\//.test(x.fonteUrl)){const a=document.createElement("a");a.href=x.fonteDetalheUrl||x.fonteUrl;a.target="_blank";a.rel="noopener noreferrer";a.textContent=x.fonteDetalheUrl?" Proposição específica":" Base geral (API)";li.append(a)}ul.append(li)}summaryBox.append(ul);
   }else summaryBox.textContent="Nenhum resumo público disponível nesta coleta.";
   refreshAfterTriage();
   status.textContent=`Base pública: ${discoveredRows.length} processo(s). Última execução: ${payload.atualizadoEm||"não executada"}. Estado: ${payload.estado||"desconhecido"}. Novos processos aguardam triagem.`;
