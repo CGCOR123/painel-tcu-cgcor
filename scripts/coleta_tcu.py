@@ -45,6 +45,52 @@ def request_json(url,timeout=30):
    if attempt==2:raise
    time.sleep(2**attempt)
 
+def iter_pautas_stream(url, timeout=120, max_mb=512):
+ """Lê array JSON grande em fluxo, sem armazenar resposta integral em memória.
+
+ O endpoint de pautas não documenta paginação. A leitura incremental mantém
+ memória limitada, com teto de transferência e validação de origem oficial.
+ """
+ if not official(url): raise ValueError('URL fora dos domínios oficiais do TCU')
+ opener=urllib.request.build_opener(OfficialRedirectHandler())
+ req=urllib.request.Request(url,headers={'User-Agent':'PainelTCU-CGCOR/1.3 (dados publicos)','Accept':'application/json'})
+ decoder=json.JSONDecoder(); buffer=''; started=False; ended=False
+ total=0; count=0; limit=max_mb*1_000_000
+ with opener.open(req,timeout=timeout) as response:
+  if not official(response.geturl()): raise ValueError('Origem não oficial')
+  import codecs
+  utf8=codecs.getincrementaldecoder('utf-8-sig')()
+  while True:
+   raw=response.read(65536)
+   total+=len(raw)
+   if total>limit: raise ValueError(f'Pautas excedem teto de transferência de {max_mb} MB')
+   buffer+=utf8.decode(raw,final=not raw)
+   while True:
+    buffer=buffer.lstrip()
+    if not started:
+     if not buffer: break
+     if buffer[0]!='[': raise ValueError('Pautas: esperado array JSON')
+     started=True;buffer=buffer[1:];continue
+    if buffer.startswith(']'):
+     ended=True;buffer=buffer[1:];break
+    if buffer.startswith(','):
+     buffer=buffer[1:];continue
+    if not buffer:break
+    try: item,end=decoder.raw_decode(buffer)
+    except json.JSONDecodeError:
+     if not raw:raise ValueError('Resposta JSON incompleta')
+     if len(buffer)>2_000_000:raise ValueError('Registro JSON individual muito grande')
+     break
+    buffer=buffer[end:];count+=1
+    if count>2_000_000:raise ValueError('Limite de registros de pautas excedido')
+    yield item
+   if ended:
+    if buffer.strip():raise ValueError('Dados inesperados após array de pautas')
+    if response.read(1):raise ValueError('Dados adicionais após array de pautas')
+    break
+   if not raw:break
+ if not ended:raise ValueError('Array de pautas não foi encerrado')
+
 def list_items(raw):
  if isinstance(raw,list):return raw
  if isinstance(raw,dict):
@@ -70,13 +116,17 @@ def main():
  for src in config.get('fontes',[]):
   kind=src.get('tipo');url=src.get('url','')
   try:
-   raw=request_json(url);consulted+=1; source_status.append({'tipo':kind,'fonte':url,'situacao':'consultada'})
+   raw=None if kind=='pautas_tcu' else request_json(url)
    if kind=='pautas_tcu':
-    items=list_items(raw)
+    items=iter_pautas_stream(url)
     for item in items:
      if not isinstance(item,dict):continue
      tc=normalize(item.get('numeroProcesso'))
      if not tc:continue
+     # Pautas antigas são ignoradas, exceto processos acompanhados.
+     data=str(item.get('dataSessao') or '')
+     ano=data[-4:] if len(data)>=10 else ''
+     if ano.isdigit() and int(ano)<2025 and tc not in tracked_tcs:continue
      prior=old.get('TC:'+tc,{})
      # A pauta não fornece assunto: descobrir somente processos já conhecidos ou explicitamente temáticos.
      assunto=str(item.get('assunto') or prior.get('assunto') or '')
@@ -110,6 +160,7 @@ def main():
      if not official(next_url):raise ValueError('Paginação aponta para domínio não autorizado')
      seen.add(next_url);page=request_json(next_url);time.sleep(.3)
    else:raise ValueError('Tipo de fonte não reconhecido: '+str(kind))
+   consulted+=1;source_status.append({'tipo':kind,'fonte':url,'situacao':'consultada'})
   except Exception as exc:
    error={'fonte':url,'erro':str(exc)[:240]};errors.append(error);source_status.append({'tipo':kind,'fonte':url,'situacao':'erro','detalhe':error['erro']})
  for key,record in old.items():
