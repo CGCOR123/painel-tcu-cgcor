@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-19T17:57:20.165077+00:00",
+  "atualizadoEm": "2026-11-19T18:08:06.047246+00:00",
   "estado": "atualizado",
-  "processosAcompanhadosConfigurados": 0,
+  "processosAcompanhadosConfigurados": 2,
   "fontesConsultadas": 2,
   "diagnosticoFontes": [
     {
@@ -17,208 +17,7 @@
   ],
   "fontesConfiguradas": 2,
   "erros": [],
-  "novosProcessos": [
-    "TC:000.630/2012-8",
-    "TC:000.688/2011-8",
-    "TC:001.355/2013-9",
-    "TC:001.564/2010-2",
-    "TC:002.500/2002-3",
-    "TC:002.760/2000-6",
-    "TC:002.793/2009-0",
-    "TC:003.063/2012-7",
-    "TC:003.075/2009-9",
-    "TC:003.088/2005-4",
-    "TC:003.097/2001-0",
-    "TC:003.120/2013-9",
-    "TC:003.130/2006-8",
-    "TC:003.370/2000-5",
-    "TC:003.584/2001-0",
-    "TC:003.613/2012-7",
-    "TC:003.643/2012-3",
-    "TC:003.807/2011-8",
-    "TC:004.063/2008-4",
-    "TC:004.145/2005-7",
-    "TC:004.449/2010-0",
-    "TC:004.662/2011-3",
-    "TC:005.236/2008-2",
-    "TC:005.859/2011-5",
-    "TC:006.075/2003-3",
-    "TC:006.143/2013-0",
-    "TC:006.168/2012-4",
-    "TC:006.177/2009-2",
-    "TC:006.283/2013-6",
-    "TC:006.801/2006-8",
-    "TC:006.994/2003-8",
-    "TC:007.026/2009-2",
-    "TC:007.037/2006-1",
-    "TC:007.103/2007-7",
-    "TC:007.132/2011-5",
-    "TC:007.382/2013-8",
-    "TC:007.498/2008-5",
-    "TC:007.498/2010-1",
-    "TC:007.735/2003-0",
-    "TC:008.403/2000-0",
-    "TC:009.046/2012-7",
-    "TC:009.081/2013-5",
-    "TC:009.179/2000-7",
-    "TC:009.222/2010-3",
-    "TC:009.469/2004-0",
-    "TC:009.507/2009-3",
-    "TC:009.666/2007-3",
-    "TC:009.680/2001-3",
-    "TC:009.728/2004-3",
-    "TC:009.744/2002-0",
-    "TC:009.831/2004-4",
-    "TC:009.995/2003-9",
-    "TC:010.262/2011-3",
-    "TC:010.265/2004-2",
-    "TC:010.304/2013-4",
-    "TC:010.327/2003-9",
-    "TC:010.349/2003-6",
-    "TC:010.475/2004-0",
-    "TC:010.572/2010-4",
-    "TC:010.794/2002-5",
-    "TC:010.837/2000-8",
-    "TC:010.843/2010-8",
-    "TC:011.101/2003-6",
-    "TC:011.154/2013-6",
-    "TC:011.314/2010-9",
-    "TC:011.388/2002-0",
-    "TC:011.650/2010-9",
-    "TC:011.809/2011-6",
-    "TC:011.858/2012-5",
-    "TC:011.875/2012-7",
-    "TC:012.026/2011-5",
-    "TC:012.077/2012-7",
-    "TC:012.100/2005-0",
-    "TC:012.125/2011-3",
-    "TC:012.270/2007-6",
-    "TC:012.304/2009-2",
-    "TC:012.384/2005-0",
-    "TC:012.474/2013-4",
-    "TC:012.657/2010-7",
-    "TC:012.803/2010-3",
-    "TC:012.840/2011-4",
-    "TC:012.978/2012-4",
-    "TC:013.226/2010-0",
-    "TC:013.501/2008-8",
-    "TC:013.574/2008-4",
-    "TC:013.641/2008-9",
-    "TC:013.934/2013-9",
-    "TC:014.031/2012-4",
-    "TC:014.145/2012-0",
-    "TC:014.169/2012-6",
-    "TC:014.174/2012-0",
-    "TC:014.184/2012-5",
-    "TC:014.488/2006-2",
-    "TC:014.522/2005-8",
-    "TC:014.678/2012-8",
-    "TC:014.795/2009-8",
-    "TC:015.034/2006-4",
-    "TC:015.042/2010-3",
-    "TC:015.127/2009-0",
-    "TC:015.278/2009-4",
-    "TC:015.406/2009-6",
-    "TC:015.688/2007-6",
-    "TC:015.705/2011-0",
-    "TC:015.753/2010-7",
-    "TC:016.119/2009-2",
-    "TC:016.185/2012-9",
-    "TC:016.353/2009-5",
-    "TC:016.501/2007-3",
-    "TC:016.531/2007-2",
-    "TC:016.537/2007-6",
-    "TC:016.571/2007-8",
-    "TC:016.585/2009-0",
-    "TC:016.585/2012-7",
-    "TC:016.629/2012-4",
-    "TC:016.648/2009-1",
-    "TC:016.898/2005-1",
-    "TC:017.006/2007-7",
-    "TC:017.154/2007-0",
-    "TC:017.271/2010-0",
-    "TC:017.382/2006-7",
-    "TC:017.453/2012-7",
-    "TC:017.863/2005-0",
-    "TC:017.994/2005-2",
-    "TC:018.067/2009-3",
-    "TC:018.351/2009-0",
-    "TC:018.516/2006-7",
-    "TC:018.578/2009-4",
-    "TC:018.618/2010-3",
-    "TC:018.636/2005-7",
-    "TC:018.689/2013-2",
-    "TC:018.750/2007-8",
-    "TC:018.900/2010-0",
-    "TC:019.067/2013-5",
-    "TC:019.108/2011-7",
-    "TC:019.602/2012-0",
-    "TC:019.760/2008-7",
-    "TC:019.987/2010-2",
-    "TC:020.003/2008-5",
-    "TC:020.019/2010-6",
-    "TC:020.165/2010-2",
-    "TC:020.333/2006-4",
-    "TC:020.375/2006-4",
-    "TC:020.548/2007-6",
-    "TC:020.629/2006-8",
-    "TC:020.638/2004-0",
-    "TC:020.663/2010-2",
-    "TC:020.925/2007-3",
-    "TC:020.959/2010-9",
-    "TC:021.055/2006-0",
-    "TC:021.208/2009-5",
-    "TC:021.332/2007-0",
-    "TC:022.112/2007-0",
-    "TC:022.246/2010-0",
-    "TC:022.292/2013-6",
-    "TC:022.678/2008-8",
-    "TC:022.892/2008-8",
-    "TC:023.373/2008-0",
-    "TC:024.213/2009-9",
-    "TC:024.401/2013-7",
-    "TC:024.597/2008-7",
-    "TC:024.625/2006-7",
-    "TC:024.991/2012-0",
-    "TC:024.993/2012-3",
-    "TC:025.733/2006-9",
-    "TC:025.798/2010-3",
-    "TC:026.039/2010-9",
-    "TC:026.133/2011-3",
-    "TC:026.190/2011-7",
-    "TC:026.468/2011-5",
-    "TC:026.925/2006-2",
-    "TC:027.707/2011-3",
-    "TC:027.712/2006-8",
-    "TC:028.265/2011-4",
-    "TC:028.309/2011-1",
-    "TC:029.067/2010-3",
-    "TC:029.122/2009-5",
-    "TC:029.284/2011-2",
-    "TC:029.512/2011-5",
-    "TC:029.545/2009-1",
-    "TC:029.695/2012-0",
-    "TC:029.760/2009-9",
-    "TC:030.132/2010-0",
-    "TC:030.230/2010-1",
-    "TC:030.981/2011-5",
-    "TC:031.015/2012-3",
-    "TC:031.529/2010-0",
-    "TC:031.605/2012-5",
-    "TC:032.468/2011-3",
-    "TC:033.048/2008-4",
-    "TC:033.552/2010-0",
-    "TC:034.010/2011-4",
-    "TC:035.103/2011-6",
-    "TC:036.241/2012-1",
-    "TC:036.705/2012-8",
-    "TC:036.732/2011-7",
-    "TC:037.327/2011-9",
-    "TC:038.755/2012-2",
-    "TC:039.676/2012-9",
-    "TC:045.601/2012-7",
-    "TC:046.794/2012-3"
-  ],
+  "novosProcessos": [],
   "movimentacoesDetectadas": [],
   "processosAcompanhadosEncontrados": [],
   "processos": [
@@ -238,7 +37,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Nos termos do art. 71, inciso IV, da Constituição Federal, bem como do arts. 90, X, c/c art. 102-A, I, \"e\", ambos do Regimento Interno do Senado Federal, requeiro que esta Comissão de Transparência, Governança, Fiscaliza. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -258,7 +57,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informações ao Tribunal de Contas da União acerca da elevação do nível de confidencialidade do processo que trata da fiscalização da atuação do Banco Central na liquidação do Banco Master, bem como sobre os impa. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -278,7 +77,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer o envio de solicitação de informações ao Tribunal de Contas da União acerca da assunção direta da execução da 1ª etapa do Píer T do Corredor Leste de Exportação do Porto de Paranaguá pela empresa BTG Commodities S. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -293,7 +92,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: \nRequisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de lim. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -319,7 +118,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer, nos termos do art. 71, inciso IV, da Constituição Federal, combinado com o art. 90, inciso X, do Regimento Interno do Senado Federal, que seja solicitado, ao Tribunal de Contas da União, a realização de fiscaliza. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -334,7 +133,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: Requisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limi. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -360,7 +159,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informações ao Tribunal de Contas da União sobre a aplicação de recursos públicos, contratos de manutenção e fiscalização relacionados à Ponte Juscelino Kubitschek de Oliveira, na BR-226, que colapsou em dezembr. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -380,7 +179,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita que seja apresentada Solicitação de informação ao Tribunal de Contas da União acerca do processo de monitoramento contínuo realizado pelo Tribunal em face dos gastos com cartão corporativo da Presidência da Repú. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -400,7 +199,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Requer o envio à CFFC, pelo Tribunal de Contas da União (TCU), de cópias digitais de Acórdãos (acompanhados de respectivos relatórios e votos) exarados recentemente pela\nCorte de Contas em relação à temática: emendas Par. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -415,7 +214,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Fiscalização e controle. Assunto: Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimoni. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -441,7 +240,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informação ao Tribunal de Contas da União acerca das regras de recuperação de créditos dos Conselhos de Fiscalização Profissional e a proporcionalidade dos valores das anuidades quando houver licença ou cancelam. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -455,7 +254,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer o encaminhamento de Solicitação de Informação ao Tribunal de Contas da União (TCU) quanto os processos de planejamento, aquisição, execução orçamentária e distribuição dos livros didáticos referentes ao Programa N. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -481,7 +280,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a legalidade, regularidade e eficiência na gestão do Sistema de Seleção Unificada (Sisu), vinculado a. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -501,7 +300,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Solicita informações ao Tribunal de Contas da União sobre a autorização do Governo Lula para que sindicatos utilizem recursos do Fundo de Amparo ao Trabalhador (FAT) e de emendas parlamentares.. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -516,7 +315,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Orçamento, Fiscalização e controle. Assunto: Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -536,7 +335,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer a realização de Auditoria, com o auxílio do Tribunal de Contas da União, com o objetivo acompanhar e apurar a legalidade da execução orçamentária referente ao bloqueio de R$ 116 milhões destinados à Capes em 2023 . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
@@ -562,7 +361,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a qualidade e eficiência dos serviços de saúde prestados pelo Hospital Municipal de Contagem.. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -582,7 +381,7 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Requer auditoria, com auxílio do Tribunal de Contas da União, para verificar a regularidade da execução dos recursos repassados pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome para a Ass. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
@@ -600,7 +399,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -618,7 +417,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/04/2026. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -636,7 +435,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/02/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -654,7 +453,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/11/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -672,7 +471,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/05/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -690,7 +489,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/06/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -708,7 +507,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/11/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -726,7 +525,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 14/05/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -744,7 +543,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/02/2026. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -762,7 +561,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/04/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -780,7 +579,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/02/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -798,7 +597,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/07/2025. Relator informado: WEDER DE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -816,7 +615,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/07/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -834,7 +633,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 20/10/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -852,7 +651,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/04/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -870,7 +669,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 31/03/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -888,7 +687,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/09/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -906,7 +705,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/09/2026. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -924,7 +723,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 08/10/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -942,7 +741,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/07/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -960,7 +759,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 08/07/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -978,7 +777,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/05/2025. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -996,7 +795,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/11/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1014,7 +813,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1032,7 +831,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/01/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1050,7 +849,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 09/06/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1068,7 +867,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/07/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1086,7 +885,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/10/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1104,7 +903,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1122,7 +921,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/02/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1140,7 +939,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/10/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1158,7 +957,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/09/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1176,7 +975,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/08/2026. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1194,7 +993,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/05/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1212,7 +1011,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 20/08/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1230,7 +1029,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/02/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1248,7 +1047,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/06/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1266,7 +1065,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/09/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1284,7 +1083,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/04/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1302,7 +1101,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 08/07/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1320,7 +1119,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 09/07/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1338,7 +1137,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/02/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1356,7 +1155,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 02/09/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1374,7 +1173,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/02/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1392,7 +1191,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1410,7 +1209,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/04/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1428,7 +1227,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/01/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1446,7 +1245,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 17/06/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1464,7 +1263,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/09/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1482,7 +1281,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/02/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1500,7 +1299,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/09/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1518,7 +1317,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/04/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1536,7 +1335,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 03/12/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1554,7 +1353,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 06/08/2025. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1572,7 +1371,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/02/2025. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1590,7 +1389,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/05/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1608,7 +1407,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 24/06/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1626,7 +1425,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/02/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1644,7 +1443,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/02/2026. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1662,7 +1461,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1680,7 +1479,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/01/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1698,7 +1497,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 06/08/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1716,7 +1515,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/07/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1734,7 +1533,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 14/05/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1752,7 +1551,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/05/2026. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1770,7 +1569,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1788,7 +1587,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/05/2026. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1806,7 +1605,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 12/08/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1824,7 +1623,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 12/03/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1842,7 +1641,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1860,7 +1659,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 02/04/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1878,7 +1677,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/10/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1896,7 +1695,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/09/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1914,7 +1713,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/09/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1932,7 +1731,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 24/03/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1950,7 +1749,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/02/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1968,7 +1767,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/08/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -1986,7 +1785,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 17/06/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2004,7 +1803,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/08/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2022,7 +1821,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/07/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2040,7 +1839,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 20/05/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2058,7 +1857,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/06/2025. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2076,7 +1875,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2094,7 +1893,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 21/05/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2112,7 +1911,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/02/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2130,7 +1929,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 13/08/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2148,7 +1947,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 02/12/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2166,7 +1965,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 16/07/2025. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2184,7 +1983,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/03/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2202,7 +2001,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/04/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2220,7 +2019,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/08/2025. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2238,7 +2037,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/02/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2256,7 +2055,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 24/02/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2274,7 +2073,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 24/06/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2292,7 +2091,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 14/10/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2310,7 +2109,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/08/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2328,7 +2127,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/11/2026. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2346,7 +2145,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/04/2025. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2364,7 +2163,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/07/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2382,7 +2181,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/07/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2400,7 +2199,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/04/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2418,7 +2217,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/02/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2436,7 +2235,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/02/2025. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2454,7 +2253,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/10/2025. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2472,7 +2271,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 12/05/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2490,7 +2289,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/11/2025. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2508,7 +2307,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/04/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2526,7 +2325,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 08/07/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2544,7 +2343,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/01/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2562,7 +2361,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/07/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2580,7 +2379,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/03/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2598,7 +2397,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/04/2026. Relator informado: ODAIR CUNHA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2616,7 +2415,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/04/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2634,7 +2433,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 31/03/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2652,7 +2451,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/08/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2670,7 +2469,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2688,7 +2487,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/08/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2706,7 +2505,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 16/04/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2724,7 +2523,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/02/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2742,7 +2541,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/08/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2760,7 +2559,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/10/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2778,7 +2577,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/09/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2796,7 +2595,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/08/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2814,7 +2613,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/02/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2832,7 +2631,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 30/09/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2850,7 +2649,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 02/06/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2868,7 +2667,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 07/10/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2886,7 +2685,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 07/10/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2904,7 +2703,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 02/06/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2922,7 +2721,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 16/09/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2940,7 +2739,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2958,7 +2757,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 07/10/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2976,7 +2775,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 20/05/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -2994,7 +2793,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/03/2025. Relator informado: WEDER DE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3012,7 +2811,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 12/11/2025. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3030,7 +2829,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/11/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3048,7 +2847,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 03/12/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3066,7 +2865,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 21/01/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3084,7 +2883,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/05/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3102,7 +2901,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/03/2026. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3120,7 +2919,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/07/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3138,7 +2937,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3156,7 +2955,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/08/2026. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3174,7 +2973,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 21/10/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3192,7 +2991,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/06/2025. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3210,7 +3009,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/03/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3228,7 +3027,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 23/07/2025. Relator informado: BRUNO DANTAS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3246,7 +3045,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/07/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3264,7 +3063,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 20/08/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3282,7 +3081,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 13/10/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3300,7 +3099,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/07/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3318,7 +3117,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/06/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3336,7 +3135,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 15/10/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3354,7 +3153,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/08/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3372,7 +3171,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/10/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3390,7 +3189,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 09/07/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3408,7 +3207,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3426,7 +3225,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/02/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3444,7 +3243,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 16/04/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3462,7 +3261,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 16/04/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3480,7 +3279,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 10/06/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3498,7 +3297,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3516,7 +3315,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3534,7 +3333,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 09/09/2026. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3552,7 +3351,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2025. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3570,7 +3369,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 05/11/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3588,7 +3387,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 03/09/2025. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3606,7 +3405,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/03/2026. Relator informado: WEDER DE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3624,7 +3423,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/03/2026. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3642,7 +3441,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/03/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3660,7 +3459,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/06/2025. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3678,7 +3477,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 12/03/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3696,7 +3495,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/01/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3714,7 +3513,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 14/05/2025. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3732,7 +3531,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 03/12/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3750,7 +3549,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 03/02/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3768,7 +3567,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 24/06/2025. Relator informado: MARCOS BEMQUERER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3786,7 +3585,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/03/2025. Relator informado: AUGUSTO SHERMAN. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3804,7 +3603,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/03/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3822,7 +3621,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/09/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3840,7 +3639,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 08/09/2026. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3858,7 +3657,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3876,7 +3675,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/01/2026. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3894,7 +3693,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/02/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3912,7 +3711,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 27/01/2026. Relator informado: AUGUSTO NARDES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3930,7 +3729,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/03/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3948,7 +3747,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 29/07/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3966,7 +3765,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 18/08/2026. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -3984,7 +3783,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 11/02/2026. Relator informado: BENJAMIN ZYMLER. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4002,7 +3801,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 26/02/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4020,7 +3819,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/07/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4038,7 +3837,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 28/10/2025. Relator informado: AROLDO CEDRAZ. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4056,7 +3855,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 19/08/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4074,7 +3873,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/01/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4092,7 +3891,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: JHONATAN DE JESUS. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4110,7 +3909,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 25/02/2026. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4128,7 +3927,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 22/07/2025. Relator informado: ANTONIO ANASTASIA. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4146,7 +3945,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 17/09/2025. Relator informado: WALTON ALENCAR RODRIGUES. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4164,7 +3963,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 04/11/2026. Relator informado: RODRIGO PACHECO. Inclusão em pauta não comprova julgamento ou decisão."
     },
@@ -4182,7 +3981,7 @@
       "fonteUrl": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "fonteConsulta": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
       "primeiraDeteccao": "2026-11-19T17:57:20.165077+00:00",
-      "ultimaDeteccao": "2026-11-19T17:57:20.165077+00:00",
+      "ultimaDeteccao": "2026-11-19T18:08:06.047246+00:00",
       "situacaoVerificacao": "Consta em pauta pública; julgamento não confirmado",
       "resumoAutomatico": "Processo incluído em pauta pública do TCU para 01/10/2025. Relator informado: JORGE OLIVEIRA. Inclusão em pauta não comprova julgamento ou decisão."
     }
@@ -4192,5 +3991,5 @@
     "a_verificar": "TC em pauta sem assunto; pertinência ainda não verificada",
     "contextual": "Solicitação do Congresso; não confirma TC"
   },
-  "ultimaColetaBemSucedida": "2026-11-19T17:57:20.165077+00:00"
+  "ultimaColetaBemSucedida": "2026-11-19T18:08:06.047246+00:00"
 }
