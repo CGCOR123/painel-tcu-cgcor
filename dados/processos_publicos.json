@@ -1,0 +1,20 @@
+{
+  "atualizadoEm": "2026-11-19T13:18:21.337599+00:00",
+  "estado": "falha_coleta",
+  "fontesConsultadas": 0,
+  "fontesConfiguradas": 2,
+  "erros": [
+    {
+      "fonte": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
+      "erro": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "fonte": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "erro": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "novosProcessos": [],
+  "movimentacoesDetectadas": [],
+  "processos": [],
+  "ultimaColetaBemSucedida": null
+}

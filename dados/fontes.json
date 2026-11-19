@@ -1,0 +1,15 @@
+{
+  "fontes": [
+    {
+      "tipo": "pautas_tcu",
+      "url": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
+      "observacao": "Endpoint de pautas documentado pelo TCU. Confirmar disponibilidade HTTPS e esquema real no GitHub Actions."
+    },
+    {
+      "tipo": "pedidos_congresso",
+      "url": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "maxPaginas": 5,
+      "observacao": "Endpoint oficial documentado de solicitações do Congresso Nacional; não abrange todos os processos do TCU."
+    }
+  ]
+}
