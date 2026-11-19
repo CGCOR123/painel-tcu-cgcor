@@ -1,20 +1,111 @@
 {
-  "atualizadoEm": "2026-11-19T13:18:21.337599+00:00",
-  "estado": "falha_coleta",
-  "fontesConsultadas": 0,
+  "atualizadoEm": "2026-11-19T13:47:25.247239+00:00",
+  "estado": "parcial",
+  "processosAcompanhadosConfigurados": 0,
+  "fontesConsultadas": 1,
   "fontesConfiguradas": 2,
   "erros": [
     {
       "fonte": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
-      "erro": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "fonte": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
-      "erro": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      "erro": "Resposta excede limite de 8 MB"
     }
   ],
-  "novosProcessos": [],
+  "novosProcessos": [
+    "011.176/2024-5",
+    "015.819/2024-8",
+    "017.443/2025-3",
+    "017.882/2025-7",
+    "028.520/2024-6",
+    "038.882/2023-0"
+  ],
   "movimentacoesDetectadas": [],
-  "processos": [],
-  "ultimaColetaBemSucedida": null
+  "processos": [
+    {
+      "processo": "011.176/2024-5",
+      "assunto": "\nRequisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limitação de empenho nos termos do disposto no § 2º do Art. 9º da Lei Complementar nº 101, de 4 de maio de 2000 - Lei de Responsabilidade Fiscal (LRF).\n",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "LDO",
+        "Responsabilidade fiscal"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: \nRequisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de lim. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "015.819/2024-8",
+      "assunto": "Requisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limitação de empenho nos termos do disposto no § 2º do Art. 9º da Lei Complementar nº 101, de 4 de maio de 2000 - Lei de Responsabilidade Fiscal (LRF).\n",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "LDO",
+        "Responsabilidade fiscal"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: Requisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limi. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "017.443/2025-3",
+      "assunto": "Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimonial de bens adquiridos com recursos públicos no âmbito de parcerias firmadas com ONGs, solicitando esclarecimentos sobre os impactos dessa medida na proteção do patrimônio público e na fiscalização da correta aplicação dos recursos federais transferidos ao terceiro setor.",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "LDO"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO. Assunto: Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimoni. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "017.882/2025-7",
+      "assunto": "Requer o encaminhamento de Solicitação de Informação ao Tribunal de Contas da União (TCU) quanto os processos de planejamento, aquisição, execução orçamentária e distribuição dos livros didáticos referentes ao Programa Nacional do Livro Didático (PNLD), sob responsabilidade do Ministério da Educação (MEC) e do Fundo Nacional de Desenvolvimento da Educação (FNDE), diante dos reiterados atrasos e falhas na entrega do material às escolas públicas.",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "Execução orçamentária"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer o encaminhamento de Solicitação de Informação ao Tribunal de Contas da União (TCU) quanto os processos de planejamento, aquisição, execução orçamentária e distribuição dos livros didáticos referentes ao Programa N. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "028.520/2024-6",
+      "assunto": "Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre os potenciais riscos de novos estouros de orçamento e medidas de fiscalização adotadas para evitar irregularidades.",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "Orçamento"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Orçamento. Assunto: Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "038.882/2023-0",
+      "assunto": "Requer a realização de Auditoria, com o auxílio do Tribunal de Contas da União, com o objetivo acompanhar e apurar a legalidade da execução orçamentária referente ao bloqueio de R$ 116 milhões destinados à Capes em 2023 pelo Governo Lula.",
+      "tipoFonte": "pedidos_congresso",
+      "temasSOF": [
+        "Execução orçamentária"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "ultimaDeteccao": "2026-11-19T13:47:25.247239+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer a realização de Auditoria, com o auxílio do Tribunal de Contas da União, com o objetivo acompanhar e apurar a legalidade da execução orçamentária referente ao bloqueio de R$ 116 milhões destinados à Capes em 2023 . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    }
+  ],
+  "ultimaColetaBemSucedida": "2026-11-19T13:47:25.247239+00:00"
 }
