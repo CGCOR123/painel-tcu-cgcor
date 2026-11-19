@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T14:36:36.824883+00:00",
+  "atualizadoEm": "2026-11-19T14:48:32.225533+00:00",
   "estado": "parcial",
   "processosAcompanhadosConfigurados": 0,
   "fontesConsultadas": 1,
@@ -10,9 +10,82 @@
       "erro": "Resposta excede limite de 8 MB"
     }
   ],
-  "novosProcessos": [],
+  "novosProcessos": [
+    "SCN:005.012/2025-2",
+    "SCN:006.438/2026-1",
+    "SCN:010.601/2026-0",
+    "SCN:011.503/2026-2",
+    "SCN:017.025/2025-7",
+    "SCN:017.097/2025-8",
+    "SCN:017.291/2025-9",
+    "SCN:017.860/2025-3",
+    "SCN:025.567/2024-1",
+    "SCN:028.516/2024-9",
+    "SCN:039.602/2023-0",
+    "SCN:040.227/2023-5"
+  ],
   "movimentacoesDetectadas": [],
   "processos": [
+    {
+      "processo": "005.012/2025-2",
+      "assunto": "Nos termos do art. 71, inciso IV, da Constituição Federal, bem como do arts. 90, X, c/c art. 102-A, I, \"e\", ambos do Regimento Interno do Senado Federal, requeiro que esta Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor (CTFC) aprove a solicitação de auditoria ao Tribunal de Contas da União (TCU) para reavaliação do Acórdão TCU n. 520/2024, proferido no âmbito do Relatório de Auditoria TC 008.711/2023-2.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www25.senado.leg.br/web/atividade/materias/-/materia/167639",
+      "numeroProposicao": "9",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Nos termos do art. 71, inciso IV, da Constituição Federal, bem como do arts. 90, X, c/c art. 102-A, I, \"e\", ambos do Regimento Interno do Senado Federal, requeiro que esta Comissão de Transparência, Governança, Fiscaliza. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "006.438/2026-1",
+      "assunto": "Solicita informações ao Tribunal de Contas da União acerca da elevação do nível de confidencialidade do processo que trata da fiscalização da atuação do Banco Central na liquidação do Banco Master, bem como sobre os impactos institucionais da restrição de acesso imposta à autarquia. ",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2603755",
+      "numeroProposicao": "14",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informações ao Tribunal de Contas da União acerca da elevação do nível de confidencialidade do processo que trata da fiscalização da atuação do Banco Central na liquidação do Banco Master, bem como sobre os impa. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "010.601/2026-0",
+      "assunto": "Requer o envio de solicitação de informações ao Tribunal de Contas da União acerca da assunção direta da execução da 1ª etapa do Píer T do Corredor Leste de Exportação do Porto de Paranaguá pela empresa BTG Commodities Sertrading, bem como se há autorização e fiscalização desse processo, tendo em vista o risco financeiro e econômico que se coloca e a potencial agressão aos princípios da legalidade, moralidade e impessoalidade, podendo configurar desvio de finalidade na aplicação de recursos públ",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2615416",
+      "numeroProposicao": "85",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer o envio de solicitação de informações ao Tribunal de Contas da União acerca da assunção direta da execução da 1ª etapa do Píer T do Corredor Leste de Exportação do Porto de Paranaguá pela empresa BTG Commodities S. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
     {
       "processo": "011.176/2024-5",
       "assunto": "\nRequisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limitação de empenho nos termos do disposto no § 2º do Art. 9º da Lei Complementar nº 101, de 4 de maio de 2000 - Lei de Responsabilidade Fiscal (LRF).\n",
@@ -24,13 +97,35 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: \nRequisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de lim. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426815",
       "numeroProposicao": "103",
-      "tipoProposicao": "REQ"
+      "tipoProposicao": "REQ",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
+    },
+    {
+      "processo": "011.503/2026-2",
+      "assunto": "Requer, nos termos do art. 71, inciso IV, da Constituição Federal, combinado com o art. 90, inciso X, do Regimento Interno do Senado Federal, que seja solicitado, ao Tribunal de Contas da União, a realização de fiscalização na RO-383, no município de Cacoal/RO, com o objetivo de averiguar a causa dos problemas nas obras de recuperação da rodovia e apurar responsabilidades.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174188",
+      "numeroProposicao": "23",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer, nos termos do art. 71, inciso IV, da Constituição Federal, combinado com o art. 90, inciso X, do Regimento Interno do Senado Federal, que seja solicitado, ao Tribunal de Contas da União, a realização de fiscaliza. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
     {
       "processo": "015.819/2024-8",
@@ -43,31 +138,116 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Responsabilidade fiscal. Assunto: Requisita-se informações ao Tribunal de Contas da União-TCU a respeito de eventual irregularidade no cancelamento durante o exercício de recursos orçamentários, que constam do Anexo III da LDO, que não são objeto de limi. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2426710",
       "numeroProposicao": "2",
-      "tipoProposicao": "SIT"
+      "tipoProposicao": "SIT",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
+    },
+    {
+      "processo": "017.025/2025-7",
+      "assunto": "Solicita informações ao Tribunal de Contas da União sobre a aplicação de recursos públicos, contratos de manutenção e fiscalização relacionados à Ponte Juscelino Kubitschek de Oliveira, na BR-226, que colapsou em dezembro de 2024, causando mortes e prejuízos socioeconômicos.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2491316",
+      "numeroProposicao": "65",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informações ao Tribunal de Contas da União sobre a aplicação de recursos públicos, contratos de manutenção e fiscalização relacionados à Ponte Juscelino Kubitschek de Oliveira, na BR-226, que colapsou em dezembr. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "017.097/2025-8",
+      "assunto": "Solicita que seja apresentada Solicitação de informação ao Tribunal de Contas da União acerca do processo de monitoramento contínuo realizado pelo Tribunal em face dos gastos com cartão corporativo da Presidência da República.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2537313",
+      "numeroProposicao": "306",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita que seja apresentada Solicitação de informação ao Tribunal de Contas da União acerca do processo de monitoramento contínuo realizado pelo Tribunal em face dos gastos com cartão corporativo da Presidência da Repú. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "017.291/2025-9",
+      "assunto": "Requer o envio à CFFC, pelo Tribunal de Contas da União (TCU), de cópias digitais de Acórdãos (acompanhados de respectivos relatórios e votos) exarados recentemente pela\nCorte de Contas em relação à temática: emendas Parlamentares \" transparência e eficiência na aplicação de recursos provenientes de emendas individuais e de\nrelator. ",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2543184",
+      "numeroProposicao": "336",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Transferências e emendas"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Requer o envio à CFFC, pelo Tribunal de Contas da União (TCU), de cópias digitais de Acórdãos (acompanhados de respectivos relatórios e votos) exarados recentemente pela\nCorte de Contas em relação à temática: emendas Par. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
     {
       "processo": "017.443/2025-3",
       "assunto": "Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimonial de bens adquiridos com recursos públicos no âmbito de parcerias firmadas com ONGs, solicitando esclarecimentos sobre os impactos dessa medida na proteção do patrimônio público e na fiscalização da correta aplicação dos recursos federais transferidos ao terceiro setor.",
       "tipoFonte": "pedidos_congresso",
       "temasSOF": [
-        "LDO"
+        "LDO",
+        "Fiscalização e controle"
       ],
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
-      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO. Assunto: Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimoni. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre LDO, Fiscalização e controle. Assunto: Requer o encaminhamento de solicitação de informações ao Tribunal de Contas da União (TCU) quanto à supressão, na proposta de Lei de Diretrizes Orçamentárias (LDO) para 2026, da cláusula que obrigava a reversão patrimoni. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532295",
       "numeroProposicao": "276",
-      "tipoProposicao": "REQ"
+      "tipoProposicao": "REQ",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
+    },
+    {
+      "processo": "017.860/2025-3",
+      "assunto": "Solicita informação ao Tribunal de Contas da União acerca das regras de recuperação de créditos dos Conselhos de Fiscalização Profissional e a proporcionalidade dos valores das anuidades quando houver licença ou cancelamento de registro no ano em curso.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2557391",
+      "numeroProposicao": "93",
+      "tipoProposicao": "SIT",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Solicita informação ao Tribunal de Contas da União acerca das regras de recuperação de créditos dos Conselhos de Fiscalização Profissional e a proporcionalidade dos valores das anuidades quando houver licença ou cancelam. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
     {
       "processo": "017.882/2025-7",
@@ -79,31 +259,76 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer o encaminhamento de Solicitação de Informação ao Tribunal de Contas da União (TCU) quanto os processos de planejamento, aquisição, execução orçamentária e distribuição dos livros didáticos referentes ao Programa N. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2554406",
       "numeroProposicao": "356",
-      "tipoProposicao": "REQ"
+      "tipoProposicao": "REQ",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
+    },
+    {
+      "processo": "025.567/2024-1",
+      "assunto": "Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a legalidade, regularidade e eficiência na gestão do Sistema de Seleção Unificada (Sisu), vinculado ao Ministério da Educação, no âmbito das graves falhas referentes às divulgações dos resultados do processo seletivo no ano de 2024.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423317",
+      "numeroProposicao": "3",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a legalidade, regularidade e eficiência na gestão do Sistema de Seleção Unificada (Sisu), vinculado a. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "028.516/2024-9",
+      "assunto": "Solicita informações ao Tribunal de Contas da União sobre a autorização do Governo Lula para que sindicatos utilizem recursos do Fundo de Amparo ao Trabalhador (FAT) e de emendas parlamentares.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2457184",
+      "numeroProposicao": "218",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Transferências e emendas"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Solicita informações ao Tribunal de Contas da União sobre a autorização do Governo Lula para que sindicatos utilizem recursos do Fundo de Amparo ao Trabalhador (FAT) e de emendas parlamentares.. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     },
     {
       "processo": "028.520/2024-6",
       "assunto": "Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre os potenciais riscos de novos estouros de orçamento e medidas de fiscalização adotadas para evitar irregularidades.",
       "tipoFonte": "pedidos_congresso",
       "temasSOF": [
-        "Orçamento"
+        "Orçamento",
+        "Fiscalização e controle"
       ],
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
-      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Orçamento. Assunto: Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Orçamento, Fiscalização e controle. Assunto: Requer informações ao Tribunal de Contas da União acerca da participação de empreiteiras denunciadas pela Operação Lava Jato em contratos licitatórios na Refinaria Abreu e Lima (RNEST), solicitando esclarecimentos sobre . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459429",
       "numeroProposicao": "235",
-      "tipoProposicao": "REQ"
+      "tipoProposicao": "REQ",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
     },
     {
       "processo": "038.882/2023-0",
@@ -115,14 +340,61 @@
       "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
       "primeiraDeteccao": "2026-11-19T13:47:25.247239+00:00",
-      "ultimaDeteccao": "2026-11-19T14:36:36.824883+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
       "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
       "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Execução orçamentária. Assunto: Requer a realização de Auditoria, com o auxílio do Tribunal de Contas da União, com o objetivo acompanhar e apurar a legalidade da execução orçamentária referente ao bloqueio de R$ 116 milhões destinados à Capes em 2023 . Verificar documentos oficiais antes de concluir sobre andamento ou deliberação.",
       "referenciaOrigem": "SCN",
       "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2398043",
       "numeroProposicao": "416",
-      "tipoProposicao": "REQ"
+      "tipoProposicao": "REQ",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado"
+    },
+    {
+      "processo": "039.602/2023-0",
+      "assunto": "Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a qualidade e eficiência dos serviços de saúde prestados pelo Hospital Municipal de Contagem.",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2404046",
+      "numeroProposicao": "508",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Fiscalização e controle"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Fiscalização e controle. Assunto: Requer a realização de Auditoria de Conformidade, com auxílio do Tribunal de Contas da União, com o objetivo de apurar a qualidade e eficiência dos serviços de saúde prestados pelo Hospital Municipal de Contagem.. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
+    },
+    {
+      "processo": "040.227/2023-5",
+      "assunto": "Requer auditoria, com auxílio do Tribunal de Contas da União, para verificar a regularidade da execução dos recursos repassados pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome para a Associação Programa um Milhão de Cisternas para o Semiárido (CNPJ 05.080.329/0001-23), entre 2014 e 2023, no âmbito dos convênios nº796845, 813933, 811724, 817096, 862708, 896886 e 944934, que totalizam R$ 994.225.196,53 em valores celebrados. ",
+      "tipoFonte": "pedidos_congresso",
+      "prioridadeTriagem": "contextual",
+      "fundamentoPrioridade": "Solicitação parlamentar; não é TC confirmado",
+      "referenciaOrigem": "SCN",
+      "fonteDetalheUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411986",
+      "numeroProposicao": "557",
+      "tipoProposicao": "REQ",
+      "temasSOF": [
+        "Transferências e emendas"
+      ],
+      "fonteUrl": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "fonteConsulta": "https://contas.tcu.gov.br/ords/api/publica/scn/pedidos_congresso",
+      "primeiraDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "ultimaDeteccao": "2026-11-19T14:48:32.225533+00:00",
+      "situacaoVerificacao": "Referência pública identificada; andamento não confirmado",
+      "resumoAutomatico": "Referência pública de solicitação do Congresso Nacional sobre Transferências e emendas. Assunto: Requer auditoria, com auxílio do Tribunal de Contas da União, para verificar a regularidade da execução dos recursos repassados pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome para a Ass. Verificar documentos oficiais antes de concluir sobre andamento ou deliberação."
     }
   ],
-  "ultimaColetaBemSucedida": "2026-11-19T14:36:36.824883+00:00"
+  "criteriosTriagem": {
+    "alta": "Assunto público com palavra-chave orçamentária",
+    "a_verificar": "TC em pauta sem assunto; pertinência ainda não verificada",
+    "contextual": "Solicitação do Congresso; não confirma TC"
+  },
+  "ultimaColetaBemSucedida": "2026-11-19T14:48:32.225533+00:00"
 }
