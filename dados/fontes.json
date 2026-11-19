@@ -3,7 +3,8 @@
     {
       "tipo": "pautas_tcu",
       "url": "https://dados-abertos.apps.tcu.gov.br/api/pautassessao",
-      "observacao": "Endpoint de pautas documentado pelo TCU. Confirmar disponibilidade HTTPS e esquema real no GitHub Actions."
+      "observacao": "Endpoint de pautas documentado pelo TCU. Confirmar disponibilidade HTTPS e esquema real no GitHub Actions.",
+      "limiteNovosEmPauta": 200
     },
     {
       "tipo": "pedidos_congresso",
