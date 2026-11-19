@@ -1,0 +1,42 @@
+
+name: Atualizar dados do TCU
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar arquivos do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Executar coleta do TCU
+        run: python scripts/coleta_tcu.py
+
+      - name: Salvar dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualização automática dos dados do TCU"
+            git push
+          fi
