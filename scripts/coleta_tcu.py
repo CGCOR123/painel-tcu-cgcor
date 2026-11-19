@@ -93,7 +93,11 @@ def main():
       temas=classify(assunto)
       if not tc or not temas:continue
       prior=old.get(tc,{})
-      row=dict(prior,processo=tc,assunto=assunto[:500],tipoFonte='pedidos_congresso',temasSOF=temas,fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Referência pública identificada; andamento não confirmado')
+      detail=str(item.get('link_proposicao') or '')
+      parsed=urllib.parse.urlparse(detail)
+      if parsed.scheme!='https' or parsed.hostname not in ('www.camara.leg.br','www25.senado.leg.br','www.senado.leg.br','legis.senado.leg.br'):
+       detail=''
+      row=dict(prior,processo=tc,assunto=assunto[:500],tipoFonte='pedidos_congresso',referenciaOrigem='SCN',fonteDetalheUrl=detail,numeroProposicao=str(item.get('numero') or ''),tipoProposicao=str(item.get('tipo') or ''),temasSOF=temas,fonteUrl=url,fonteConsulta=url,primeiraDeteccao=prior.get('primeiraDeteccao',now),ultimaDeteccao=now,situacaoVerificacao='Referência pública identificada; andamento não confirmado')
       row['resumoAutomatico']=summary(row);found[tc]=row
      next_url=page.get('next') if isinstance(page,dict) else None
      if not isinstance(next_url,str) or not next_url or next_url in seen:break
